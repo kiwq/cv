@@ -1,0 +1,25 @@
+.wexp-table,
+th,
+td {
+  border: 1px solid;
+  text-align: center;
+  margin: 0px;
+  background-color: rgb(250, 231, 208);
+}
+
+.wexp-table th {
+  background-color: rgb(161, 237, 187);
+  text-transform: uppercase;
+}
+
+#cvpic {
+  width: 250px;
+  border: 2px solid rgb(161, 237, 187);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.low-border {
+  border: rgb(161, 237, 187) solid;
+  border-width: 0 0 2px 0;
+}
