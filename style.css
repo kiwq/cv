@@ -5,6 +5,7 @@ td {
   text-align: center;
   margin: 0px;
   background-color: rgb(250, 231, 208);
+  width: 100vw;
 }
 
 .wexp-table th {
@@ -13,13 +14,19 @@ td {
 }
 
 #cvpic {
-  width: 250px;
+  width: 100px;
+  height: 100px;
   border: 2px solid rgb(161, 237, 187);
   border-radius: 10px;
   padding: 10px;
+  float: right;
 }
 
 .low-border {
   border: rgb(161, 237, 187) solid;
   border-width: 0 0 2px 0;
+}
+
+.name-position {
+  display: inline;
 }
